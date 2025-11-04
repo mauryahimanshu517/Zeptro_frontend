@@ -19,7 +19,7 @@ function Cart() {
       const order = await orderResponse.json();
 
       const options = {
-        key: "rzp_test_RbazyuxUIauDAV", // Use your Razorpay test/live key
+        key: import.meta.env.VITE_RAZORPAY_KEY,
         amount: order.amount,
         currency: "INR",
         name: "Zaptro Store",
