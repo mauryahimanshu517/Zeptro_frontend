@@ -9,7 +9,7 @@ import Product from "./pages/Product"
 import SingleProduct from "./pages/SingleProduct"
 import CatogoriesPage from "./pages/CatogoriesPage"
 // import RazorpayPayment from "./component/RazorpayPayment" // ✅ Import here
-
+// xyz
 function App() {
   return (
     <BrowserRouter>
