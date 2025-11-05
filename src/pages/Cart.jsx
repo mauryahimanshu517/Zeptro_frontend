@@ -10,7 +10,7 @@ function Cart() {
     try {
       // Update this URL to match your Render backend's /cart endpoint
       const orderResponse = await fetch(
-        `${import.meta.env.VITE_API_BASE_URL}/cart`, { // Replace with your actual Render backend URL
+        `${import.meta.env.VITE_API_BASE_URL}cart`, { // Replace with your actual Render backend URL
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ amount: payment }),
